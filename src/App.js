@@ -46,7 +46,6 @@ function App() {
   
   const aoNovoColaboradorAdicionado = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
-    console.log(colaboradores)
   }
   return (
     <div className="App">
